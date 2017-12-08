@@ -16,7 +16,7 @@ mvn package
 
 * To the run the inventory service, run below command
 
-  java -jar target/GitCrawler-0.0.1-SNAPSHOT.jar server config.yml server config.yml
+  java -jar target/GitCrawler-0.0.1-SNAPSHOT.jar server config.yml
   
 
 * Server monitoring can be done through following URL:

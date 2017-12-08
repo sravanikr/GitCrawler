@@ -19,10 +19,6 @@ mvn package
   java -jar target/GitCrawler-0.0.1-SNAPSHOT.jar server config.yml
   
 
-* Server monitoring can be done through following URL:
-
-http://localhost:8080/admin
-
 * REST End Point Details: 
 
 http://localhost:8081/api/users/abc/followers?level=3

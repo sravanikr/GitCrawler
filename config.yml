@@ -1,0 +1,13 @@
+appname: GitHubCrawler
+server:
+  adminConnectors:
+    -
+      port: 18002
+      type: http
+  adminContextPath: /admin
+  applicationConnectors:
+    -
+      port: 8081
+      type: http
+  rootPath: /api/*
+  type: default
